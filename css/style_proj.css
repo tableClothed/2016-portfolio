@@ -1,0 +1,191 @@
+body{
+	margin: 0;
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Saira Condensed', sans-serif;
+	overflow: hidden;
+}
+
+
+#menu a {
+    position: fixed;
+    left: -120px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white; 
+    border-radius: 0 5px 5px 0;
+    z-index: 2;
+}
+
+#menu a:hover {
+    left: 0;
+}
+
+#menu a img {
+	text-align: right;
+	position: absolute;
+	right: 20px;
+}
+
+#about {
+    top: +200px;
+    background-color: #333;
+}
+
+#skills {
+    top: +280px;
+    background-color: #333;
+
+}
+
+#exp {
+    top: +360px;
+    background-color: #333;
+}
+
+#projects {
+    top: +440px;
+    background-color: #9ba810;
+}
+
+#contact {
+    top: 520px;
+    background-color: #333;
+}
+
+
+#cont {
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #efefe8;
+	text-align: left;
+	height: 1000px;
+}
+
+#cont p{
+	margin: 0 5%;
+}
+
+#justblock{
+	height: 90px;
+	background-color: #333;
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-size: 60px;
+}
+
+#underblock{
+	width: 100%;
+	height: 25px;
+	background-image: url("gree.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inner{
+	margin: 0 10%;
+}
+
+#forcircles{
+	width:100%;
+	background-color: #d9e2da;
+	height: 570px;
+	margin-top: 30px;
+    bottom: 20px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.smaller{
+	float: left;
+}
+
+#bottom{
+  background-color: #020202;
+  min-height: 20px;
+  width: 100%;
+  color: #666;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#bottom img{
+	padding-left: 22px;
+	text-align: center;
+}
+
+
+/* Create two equal columns that sits next to each other */
+
+
+
+#descrip{
+  float: left;
+  width: 500px;
+  height: 350px;
+  padding: 30px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+#descrip > h2:first-child{
+  font-size: 31px;
+  border-bottom: 2px #000 solid;
+  text-align: center;
+}
+
+.column{
+    width: 683px;
+  height: 300px;
+  float: left;
+  margin-top: 80px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 1px 16px;
+  color: white;
+  font-weight: bold;
+  font-size:30px;
+  color: #666;
+  border: 1px #b3bcb4 solid;
+  border-radius: 10%;
+  background-color: #c3ccc4;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover, .next:hover{
+  color: black;
+}
+
+
+
